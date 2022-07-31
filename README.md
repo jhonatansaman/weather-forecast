@@ -7,6 +7,10 @@ This is a NextJS project using the openweatherMap APIs to be able to consult the
 First, run the development server:
 
 ```bash
+yarn 
+# or
+npm install
+
 npm run dev
 # or
 yarn dev
