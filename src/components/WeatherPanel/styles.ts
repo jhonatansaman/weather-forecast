@@ -36,7 +36,7 @@ export const Ul = styled.ul``;
 export const LI = styled.ul`
   ${({ theme }) => css`
     padding: 10px;
-    border-bottom: 1px solid #f3f3f3;
+    border-bottom: 1px solid ${theme.colors.contrast.light};
 
     :hover {
       background-color: ${theme.colors.primary.light};

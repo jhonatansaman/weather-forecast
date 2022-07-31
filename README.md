@@ -1,6 +1,6 @@
 # Weather Forecast- NextJS 💻
 
-This is a NextJS project using the openweatherMap APIs to be able to consult the 7-day weather forecast, in addition it was using Prisma to be able to save information regarding favorite cities
+This is a NextJS project using the openweatherMap APIs to be able to consult the 7-day weather forecast, in addition it was using Prisma to be able to save information regarding favorite cities using SQLite do store the informations.
 
 ## Getting Started
 

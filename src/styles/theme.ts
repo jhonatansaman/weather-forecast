@@ -13,7 +13,7 @@ const theme = {
     },
     contrast: {
       default: "#2485EA",
-      light: "#61ADF0",
+      light: "#f3f3f3",
       lightBlue: "#D3E7FB",
       dark: "#1C67B8",
       mininum: "#E3E7EE",

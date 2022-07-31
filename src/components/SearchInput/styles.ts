@@ -35,7 +35,7 @@ export const Input = styled.input`
 export const AutoCompleteBox = styled.div<{ loading: boolean }>`
   ${({ loading, theme }) => css`
     width: 100%;
-    border: 1px solid #f3f3f3;
+    border: 1px solid ${theme.colors.contrast.light};
     border-top: none;
     z-index: 2;
     top: 45px;
@@ -76,8 +76,8 @@ export const Loading = styled.div`
 
     width: 20px;
     height: 20px;
-    border: 2px solid #f3f3f3; /* Light grey */
-    border-top: 2px solid ${theme.colors.primary.light}; /* Black */
+    border: 2px solid ${theme.colors.contrast.light};
+    border-top: 2px solid ${theme.colors.primary.light};
     border-radius: 50%;
     animation: spinner 1.5s linear infinite;
   `}
